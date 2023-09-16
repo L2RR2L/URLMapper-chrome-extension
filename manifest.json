@@ -1,0 +1,19 @@
+{
+    "name": "Map URL to Controller",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "debugger",
+        "contextMenus"
+    ],
+    
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+    "manifest_version": 3
+}
